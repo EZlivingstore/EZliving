@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EZ Living | مناديل طاردة للناموس</title>
+  <style>
+    body {
+      font-family: 'Tahoma', sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #333;
+    }
+    header {
+      background: #0e5e4f;
+      color: white;
+      padding: 30px 10px;
+    }
+    h1, h2 {
+      margin: 10px 0;
+    }
+    .hero-img {
+      max-width: 300px;
+      margin-top: 20px;
+    }
+    .cta-btn {
+      background-color: #28a745;
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .section {
+      padding: 40px 20px;
+    }
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 90%;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+    form {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+      margin: 20px auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, select, button {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #28a745;
+      color: white;
+      font-size: 16px;
+      border: none;
+    }
+    footer {
+      background: #eee;
+      padding: 20px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>وداعًا للدغات الناموس! 🦟</h1>
+  <h2>مناديل "FLY-OFF" من وايت – حماية تدوم حتى 48 ساعة</h2>
+  <img src="product.jpg" alt="Fly-Off Wipes" class="hero-img" />
+  <br />
+  <a href="#order" class="cta-btn">اطلب الآن</a>
+</header>
+
+<section class="section">
+  <h2>✅ لماذا تختار FLY-OFF؟</h2>
+  <ul style="list-style: none; padding: 0;">
+    <li>🦟 طارد فعال للناموس والحشرات</li>
+    <li>💧 لطيف على البشرة – آمن للأطفال</li>
+    <li>⏱️ فعالية طويلة تدوم حتى 48 ساعة</li>
+    <li>🔬 مختبر ميكروبيولوجيًا</li>
+    <li>🏕️ مثالي للرحلات، البيت، النوادي، والسفر</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h2>💰 الأسعار والعروض</h2>
+  <h3>📍 داخل دمنهور:</h3>
+  <table>
+    <tr><th>الكمية</th><th>السعر</th><th>التوفير</th></tr>
+    <tr><td>1 علبة</td><td>139 جنيه</td><td>-</td></tr>
+    <tr><td>2 علبة</td><td>249 جنيه</td><td>وفر 29 جنيه</td></tr>
+    <tr><td>3 علب</td><td>349 جنيه</td><td>العلبة بـ116 جنيه فقط</td></tr>
+  </table>
+  <br />
+  <h3>🌍 باقي المحافظات:</h3>
+  <table>
+    <tr><th>الكمية</th><th>السعر</th><th>التوفير</th></tr>
+    <tr><td>1 علبة</td><td>189 جنيه</td><td>-</td></tr>
+    <tr><td>2 علبة</td><td>319 جنيه</td><td>وفر 59 جنيه</td></tr>
+    <tr><td>3 علب</td><td>429 جنيه</td><td>العلبة بـ143 جنيه فقط</td></tr>
+  </table>
+</section>
+
+<section class="section">
+  <h2>🧴 طريقة الاستخدام</h2>
+  <p>اسحب منديل واحد وامسح به المناطق المكشوفة من الجسم مثل اليدين والذراعين والوجه، لكن تجنب حول العين والفم.</p>
+</section>
+
+<section class="section" id="order">
+  <h2>📦 اطلب الآن</h2>
+  <form action="https://formspree.io/f/xxxxxxxx" method="POST">
+    <input type="text" name="name" placeholder="الاسم بالكامل" required />
+    <input type="tel" name="phone" placeholder="رقم الموبايل" required />
+    <select name="location" required>
+      <option value="">اختر منطقتك</option>
+      <option value="دمنهور">دمنهور</option>
+      <option value="محافظة أخرى">محافظة أخرى</option>
+    </select>
+    <select name="quantity" required>
+      <option value="">اختر الكمية</option>
+      <option value="1">1 علبة</option>
+      <option value="2">2 علبة</option>
+      <option value="3">3 علب</option>
+    </select>
+    <button type="submit">أرسل الطلب الآن</button>
+  </form>
+</section>
+
+<footer>
+  صفحة EZ Living - جميع الحقوق محفوظة © 2025  
+</footer>
+
+</body>
+</html>
